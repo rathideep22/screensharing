@@ -1,0 +1,23 @@
+{
+  "name": "screen-share-validator",
+  "version": "1.0.0",
+  "description": "Browser-based system for validating full screen sharing",
+  "scripts": {
+    "dev": "next dev -p 3015",
+    "build": "next build",
+    "start": "next start -p 3015",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+} 

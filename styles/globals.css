@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the screen share validator */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure video elements scale properly */
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Modal backdrop animation */
+.modal-backdrop {
+  backdrop-filter: blur(4px);
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Button hover effects */
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth transitions for all interactive elements */
+button {
+  transition: all 0.2s ease-in-out;
+} 
